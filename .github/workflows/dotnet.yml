@@ -2,12 +2,12 @@ name: .NET
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
-  build:
+  Testing:
 
     runs-on: ubuntu-latest
 
@@ -58,6 +58,9 @@ jobs:
     - name: Install Postgresql
       run: sudo apt install postgresql postgresql-contrib
     - name: Create DB
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password" -c "create database test"
+      working-directory: src
+    - name: Create tables
       run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <create.sql
       working-directory: src
     - name: Set users
