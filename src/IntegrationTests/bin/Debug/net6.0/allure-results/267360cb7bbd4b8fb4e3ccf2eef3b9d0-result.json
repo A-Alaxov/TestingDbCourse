@@ -1,0 +1,78 @@
+{
+  "uuid": "edf9ed33-cb88-4272-94e9-bb69762d25e0-tr-0-1038",
+  "historyId": "IntegrationTests.TestResponsibleController.TestDeleteSubObjective",
+  "fullName": "IntegrationTests.TestResponsibleController.TestDeleteSubObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteSubObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteSubObjective",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  DeleteSubObjective\r\n  Expected: not equal to 2\r\n  But was:  2\r\n",
+    "trace": "   at IntegrationTests.TestResponsibleController.TestDeleteSubObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 97\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteSubObjective",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  DeleteSubObjective\r\n  Expected: not equal to 2\r\n  But was:  2\r\n",
+        "trace": "   at IntegrationTests.TestResponsibleController.TestDeleteSubObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 97\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7f4ef77a521449679d1b2e9d3218944e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671896618296,
+      "stop": 1671896618331
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671896618296,
+  "stop": 1671896618331
+}

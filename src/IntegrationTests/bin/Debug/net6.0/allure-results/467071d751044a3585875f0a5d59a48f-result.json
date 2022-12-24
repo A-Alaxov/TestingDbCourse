@@ -1,0 +1,78 @@
+{
+  "uuid": "d81e337c-80fc-4a31-a9f6-a7246a55eb11-tr-0-1040",
+  "historyId": "IntegrationTests.TestResponsibleController.TestAddResponsibility",
+  "fullName": "IntegrationTests.TestResponsibleController.TestAddResponsibility",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddResponsibility"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddResponsibility",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddResponsibility\r\n  Expected: 0\r\n  But was:  3\r\n",
+    "trace": "   at IntegrationTests.TestResponsibleController.TestAddResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 165\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddResponsibility",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddResponsibility\r\n  Expected: 0\r\n  But was:  3\r\n",
+        "trace": "   at IntegrationTests.TestResponsibleController.TestAddResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 165\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f2c485992562443f82c1bb3c47a604d3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671897255762,
+      "stop": 1671897257761
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671897255762,
+  "stop": 1671897257765
+}

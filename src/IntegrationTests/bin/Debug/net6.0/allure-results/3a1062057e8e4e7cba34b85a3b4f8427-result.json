@@ -1,0 +1,78 @@
+{
+  "uuid": "0b46b9ed-0fbb-4b7e-b044-0d2199e7d08a-tr-0-1025",
+  "historyId": "IntegrationTests.TestEmployeeController.TestGetObjectivesByTitle",
+  "fullName": "IntegrationTests.TestEmployeeController.TestGetObjectivesByTitle",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetObjectivesByTitle"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetObjectivesByTitle",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetObjectivesByTitle Count\r\n  Expected: 1\r\n  But was:  0\r\n",
+    "trace": "   at IntegrationTests.TestEmployeeController.TestGetObjectivesByTitle() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 166\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetObjectivesByTitle",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetObjectivesByTitle Count\r\n  Expected: 1\r\n  But was:  0\r\n",
+        "trace": "   at IntegrationTests.TestEmployeeController.TestGetObjectivesByTitle() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 166\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "96508e06c39e470091f4a3a822991252-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671892790844,
+      "stop": 1671892790858
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671892790844,
+  "stop": 1671892790859
+}

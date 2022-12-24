@@ -1,0 +1,12 @@
+{
+  "uuid": "38a7817c-758c-46c8-8f6a-44f3fbc04d45-tc-0-1009",
+  "name": "IntegrationTests.IntTestFounderController.TestDeleteEmployee",
+  "children": [
+    "53893c71-8a92-4b32-a421-65fdad377e8d-tr-0-1011"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671902723918,
+  "stop": 1671902723937
+}

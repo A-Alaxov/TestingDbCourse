@@ -1,0 +1,78 @@
+{
+  "uuid": "a86a1f5c-2338-4d35-8db8-9dcdf794f1de-tr-0-1037",
+  "historyId": "IntegrationTests.TestResponsibleController.TestUpdateObjective",
+  "fullName": "IntegrationTests.TestResponsibleController.TestUpdateObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateObjective",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  UpdateObjective Title\r\n  Expected string length 8 but was 3. Strings differ at index 0.\r\n  Expected: \"omegalol\"\r\n  But was:  \"lol\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestResponsibleController.TestUpdateObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 74\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateObjective",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  UpdateObjective Title\r\n  Expected string length 8 but was 3. Strings differ at index 0.\r\n  Expected: \"omegalol\"\r\n  But was:  \"lol\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestResponsibleController.TestUpdateObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 74\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f1ff8e707ed84d76a17b836f447163e7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671897100455,
+      "stop": 1671897100482
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671897100455,
+  "stop": 1671897100482
+}

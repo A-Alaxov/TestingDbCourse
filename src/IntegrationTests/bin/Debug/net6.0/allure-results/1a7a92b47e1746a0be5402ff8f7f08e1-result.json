@@ -1,0 +1,78 @@
+{
+  "uuid": "884ce7ba-9472-4def-9da2-403ef60f1818-tr-0-1028",
+  "historyId": "IntegrationTests.TestManagerController.TestAddObjective",
+  "fullName": "IntegrationTests.TestManagerController.TestAddObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddObjective",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddObjective Title\r\n  String lengths are both 3. Strings differ at index 0.\r\n  Expected: \"lol\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestManagerController.TestAddObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 38\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddObjective",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddObjective Title\r\n  String lengths are both 3. Strings differ at index 0.\r\n  Expected: \"lol\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestManagerController.TestAddObjective() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 38\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5224d7b195784fadb493d13def29b3c8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671888969453,
+      "stop": 1671888969481
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671888969453,
+  "stop": 1671888969481
+}

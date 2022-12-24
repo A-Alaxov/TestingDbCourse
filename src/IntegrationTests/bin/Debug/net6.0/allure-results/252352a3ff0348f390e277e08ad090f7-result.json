@@ -1,0 +1,78 @@
+{
+  "uuid": "a07f6a07-03b3-4c65-b6a1-7a838ac930ac-tr-0-1022",
+  "historyId": "IntegrationTests.TestEmployeeController.TestGetAllDepartments",
+  "fullName": "IntegrationTests.TestEmployeeController.TestGetAllDepartments",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllDepartments"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllDepartments",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetAllDepartments Title\r\n  Expected string length 7 but was 5. Strings differ at index 0.\r\n  Expected: \"Testing\"\r\n  But was:  \"title\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllDepartments() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 91\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllDepartments",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetAllDepartments Title\r\n  Expected string length 7 but was 5. Strings differ at index 0.\r\n  Expected: \"Testing\"\r\n  But was:  \"title\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllDepartments() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 91\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e8c1829862674c13bf0b7848081f2ce5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671889287464,
+      "stop": 1671889289283
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671889287463,
+  "stop": 1671889289286
+}

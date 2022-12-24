@@ -1,0 +1,12 @@
+{
+  "uuid": "25397edf-1d62-401f-ad44-8b555ff84044-tc-0-1015",
+  "name": "IntegrationTests.TestHRController.TestDeleteEmployee",
+  "children": [
+    "fc0dc134-a2b9-41a7-aca2-ece4d8849b0a-tr-0-1018"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671898308829,
+  "stop": 1671898308871
+}

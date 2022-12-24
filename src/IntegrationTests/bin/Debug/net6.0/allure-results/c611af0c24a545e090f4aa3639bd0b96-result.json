@@ -1,0 +1,78 @@
+{
+  "uuid": "37e55ebf-2508-47e3-9bda-e7df0238d8e7-tr-0-1036",
+  "historyId": "IntegrationTests.TestManagerController.UpdateDepartment",
+  "fullName": "IntegrationTests.TestManagerController.UpdateDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UpdateDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "UpdateDepartment",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at IntegrationTests.TestManagerController.UpdateDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 253"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "UpdateDepartment",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at IntegrationTests.TestManagerController.UpdateDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 253"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d9fb29efdb534d05ad27bedd99b60f9a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671888190935,
+      "stop": 1671888190949
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671888190935,
+  "stop": 1671888190949
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "569a879b-9f30-411e-ba2b-97dac29bf38a-tr-0-1036",
+  "historyId": "IntegrationTests.TestManagerController.UpdateDepartment",
+  "fullName": "IntegrationTests.TestManagerController.UpdateDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UpdateDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "UpdateDepartment",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  UpdateDepartment Title\r\n  Expected string length 5 but was 7. Strings differ at index 0.\r\n  Expected: \"title\"\r\n  But was:  \"Testing\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestManagerController.UpdateDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 252\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "UpdateDepartment",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  UpdateDepartment Title\r\n  Expected string length 5 but was 7. Strings differ at index 0.\r\n  Expected: \"title\"\r\n  But was:  \"Testing\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestManagerController.UpdateDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 252\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7a7708b2c72a4cd1931899c089ce75e4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671889345976,
+      "stop": 1671889346024
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671889345976,
+  "stop": 1671889346024
+}

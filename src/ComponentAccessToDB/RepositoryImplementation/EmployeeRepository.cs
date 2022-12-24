@@ -46,6 +46,7 @@ namespace ComponentAccessToDB
             {
                 final.Add(EmployeeConv.DBtoBL(m));
             }
+            final.Sort((x, y) => x.Employeeid.CompareTo(y.Employeeid));
             return final;
         }
         public void Update(Employee element)

@@ -1,0 +1,78 @@
+{
+  "uuid": "3540c820-cbd0-4498-bcfe-0c6efa8946e2-tr-0-1033",
+  "historyId": "IntegrationTests.TestManagerController.TestDeleteResponsibility",
+  "fullName": "IntegrationTests.TestManagerController.TestDeleteResponsibility",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteResponsibility"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteResponsibility",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  DeleteResponsibility\r\n  Expected: 0\r\n  But was:  1\r\n",
+    "trace": "   at IntegrationTests.TestManagerController.TestDeleteResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 175\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteResponsibility",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  DeleteResponsibility\r\n  Expected: 0\r\n  But was:  1\r\n",
+        "trace": "   at IntegrationTests.TestManagerController.TestDeleteResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 175\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "11ee9738d68948fab5ef2d72d0dd01dd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671888406231,
+      "stop": 1671888406279
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671888406231,
+  "stop": 1671888406279
+}

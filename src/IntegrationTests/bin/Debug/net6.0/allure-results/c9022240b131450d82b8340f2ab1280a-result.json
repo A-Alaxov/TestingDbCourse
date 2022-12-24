@@ -1,0 +1,78 @@
+{
+  "uuid": "4cdb3e00-6293-4a43-8538-113784410c0e-tr-0-1043",
+  "historyId": "IntegrationTests.TestUserController.TestAddCompany",
+  "fullName": "IntegrationTests.TestUserController.TestAddCompany",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddCompany"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddCompany",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddCompany User_\r\n  Expected string length 8 but was 7. Strings differ at index 0.\r\n  Expected: \"Inlucker\"\r\n  But was:  \"Khadgar\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestUserController.TestAddCompany() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestUserController.cs:line 37\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddCompany",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddCompany User_\r\n  Expected string length 8 but was 7. Strings differ at index 0.\r\n  Expected: \"Inlucker\"\r\n  But was:  \"Khadgar\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestUserController.TestAddCompany() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestUserController.cs:line 37\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ce488b992bb34a599cc2ea8e9d7de128-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671893046646,
+      "stop": 1671893046731
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671893046646,
+  "stop": 1671893046731
+}

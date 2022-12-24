@@ -1,0 +1,12 @@
+{
+  "uuid": "2bb5e976-bfff-4010-949b-4357aee79b4d-tc-0-1007",
+  "name": "TestBL.TestHRController.TestUpdateEmployee",
+  "children": [
+    "18b038b2-f0cb-4ad1-9a09-1c716b74405c-tr-0-1010"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671894092761,
+  "stop": 1671894092768
+}

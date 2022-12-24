@@ -1,0 +1,78 @@
+{
+  "uuid": "d78c4fcd-ec68-4def-8feb-0087a55479a8-tr-0-1040",
+  "historyId": "IntegrationTests.TestResponsibleController.TestAddResponsibility",
+  "fullName": "IntegrationTests.TestResponsibleController.TestAddResponsibility",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddResponsibility"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddResponsibility",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : Sequence contains no elements",
+    "trace": "   at System.Linq.ThrowHelper.ThrowNoElementsException()\r\n   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)\r\n   at IntegrationTests.TestResponsibleController.TestAddResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 145"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddResponsibility",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Sequence contains no elements",
+        "trace": "   at System.Linq.ThrowHelper.ThrowNoElementsException()\r\n   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)\r\n   at IntegrationTests.TestResponsibleController.TestAddResponsibility() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 145"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "59f55c81de8441c88801ece5cec5c2df-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671896615984,
+      "stop": 1671896618004
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671896615983,
+  "stop": 1671896618007
+}

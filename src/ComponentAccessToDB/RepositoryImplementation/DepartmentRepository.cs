@@ -40,6 +40,7 @@ namespace ComponentAccessToDB
             {
                 final.Add(DepartmentConv.DBtoBL(m));
             }
+            final.Sort((x, y) => x.Departmentid.CompareTo(y.Departmentid));
             return final;
         }
         public void Update(Department element)

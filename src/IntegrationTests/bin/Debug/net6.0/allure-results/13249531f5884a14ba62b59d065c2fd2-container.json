@@ -1,0 +1,12 @@
+{
+  "uuid": "ea9cddbd-d04a-403e-9efa-00f4f2aee4a7-tc-0-1035",
+  "name": "IntegrationTests.TestResponsibleController.TestAddSubObjective",
+  "children": [
+    "4324915f-9f87-4d18-8a75-71ab1544cc55-tr-0-1036"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671897310094,
+  "stop": 1671897310367
+}

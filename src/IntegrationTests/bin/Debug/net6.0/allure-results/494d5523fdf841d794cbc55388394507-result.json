@@ -1,0 +1,78 @@
+{
+  "uuid": "40f8f48e-27d9-411b-a371-cbdf3d7b4a2a-tr-0-1022",
+  "historyId": "IntegrationTests.TestEmployeeController.TestGetAllDepartments",
+  "fullName": "IntegrationTests.TestEmployeeController.TestGetAllDepartments",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllDepartments"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllDepartments",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetAllDepartments Title\r\n  Expected string length 7 but was 3. Strings differ at index 0.\r\n  Expected: \"Testing\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllDepartments() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 91\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllDepartments",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetAllDepartments Title\r\n  Expected string length 7 but was 3. Strings differ at index 0.\r\n  Expected: \"Testing\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllDepartments() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 91\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d98173734ede40d3a03894ce9d703850-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671889218717,
+      "stop": 1671889220429
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671889218716,
+  "stop": 1671889220432
+}

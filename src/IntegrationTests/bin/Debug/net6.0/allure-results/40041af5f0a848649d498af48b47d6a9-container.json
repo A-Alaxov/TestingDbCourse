@@ -1,0 +1,12 @@
+{
+  "uuid": "5bd5d23e-698b-466b-ac55-ceb203f358e9-tc-0-1027",
+  "name": "IntegrationTests.TestManagerController.TestGetResponsibilityByEmployee",
+  "children": [
+    "b568f7db-9407-472f-b6d8-7ba357d69a69-tr-0-1034"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671894914791,
+  "stop": 1671894914800
+}

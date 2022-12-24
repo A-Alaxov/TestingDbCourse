@@ -1,0 +1,12 @@
+{
+  "uuid": "9b5fad13-5d2f-4003-b402-fcea6561c043-tc-0-1042",
+  "name": "IntegrationTests.TestUserController.TestDeleteUser",
+  "children": [
+    "8cdffdd3-453b-4ba0-b04f-b513dd00ecc0-tr-0-1047"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671887921344,
+  "stop": 1671887921422
+}

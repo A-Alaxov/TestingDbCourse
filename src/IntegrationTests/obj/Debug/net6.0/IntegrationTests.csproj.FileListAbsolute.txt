@@ -207,3 +207,13 @@ D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\runtimes
 D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\VisualStudioProjects\db-course\src\IntegrationTests\obj\Debug\net6.0\IntegrationTests.genruntimeconfig.cache
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\dbappsettings.json
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\ComponentAccessToDB.dll
+D:\VisualStudioProjects\db-course\src\IntegrationTests\bin\Debug\net6.0\ComponentAccessToDB.pdb

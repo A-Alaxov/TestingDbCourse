@@ -40,6 +40,7 @@ namespace ComponentAccessToDB
             {
                 final.Add(CompanyConv.DBtoBL(m));
             }
+            final.Sort((x, y) => x.Companyid.CompareTo(y.Companyid));
             return final;
         }
         public void Update(Company element)

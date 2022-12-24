@@ -1,0 +1,78 @@
+{
+  "uuid": "58e68e22-1baa-447b-92bd-a01491944b09-tr-0-1039",
+  "historyId": "IntegrationTests.TestResponsibleController.TestGetResponsibleEmployees",
+  "fullName": "IntegrationTests.TestResponsibleController.TestGetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibleEmployees",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetResponsibleEmployees Count\r\n  Expected: 4\r\n  But was:  0\r\n",
+    "trace": "   at IntegrationTests.TestResponsibleController.TestGetResponsibleEmployees() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 138\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibleEmployees",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetResponsibleEmployees Count\r\n  Expected: 4\r\n  But was:  0\r\n",
+        "trace": "   at IntegrationTests.TestResponsibleController.TestGetResponsibleEmployees() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestResponsibleController.cs:line 138\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "467e4015999f4c41837575cb868d1242-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671897257973,
+      "stop": 1671897258010
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671897257973,
+  "stop": 1671897258010
+}

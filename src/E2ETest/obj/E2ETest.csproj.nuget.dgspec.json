@@ -4,6 +4,109 @@
     "D:\\VisualStudioProjects\\db-course\\src\\E2ETest\\E2ETest.csproj": {}
   },
   "projects": {
+    "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\ComponentAccessToDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\ComponentAccessToDB.csproj",
+        "projectName": "ComponentAccessToDB",
+        "projectPath": "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\ComponentAccessToDB.csproj",
+        "packagesPath": "C:\\Users\\aalah\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aalah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VisualStudioProjects\\db-course\\src\\ComponentBuisinessLogic\\ComponentBuisinessLogic.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\db-course\\src\\ComponentBuisinessLogic\\ComponentBuisinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\VisualStudioProjects\\db-course\\src\\ComponentBuisinessLogic\\ComponentBuisinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -139,6 +242,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\ComponentAccessToDB.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\ComponentAccessToDB.csproj"
+              },
               "D:\\VisualStudioProjects\\db-course\\src\\ComponentBuisinessLogic\\ComponentBuisinessLogic.csproj": {
                 "projectPath": "D:\\VisualStudioProjects\\db-course\\src\\ComponentBuisinessLogic\\ComponentBuisinessLogic.csproj"
               }

@@ -88,11 +88,10 @@ namespace TrasferSystemTests
 
             IUserRepository rep = new UserRepository(context);
             rep.Add(User);
-            User addedUser = rep.GetAll().Last();
 
-            rep.Delete(addedUser);
+            rep.Delete(User);
 
-            Assert.IsNull(rep.GetUserByLogin(addedUser.Login), "User was not deleted");
+            Assert.IsNull(rep.GetUserByLogin("Alaxov"), "User was not deleted");
         }
 
         [Test]
@@ -103,9 +102,8 @@ namespace TrasferSystemTests
 
             IUserRepository rep = new UserRepository(context);
             rep.Add(User);
-            User addedUser = rep.GetAll().Last();
 
-            User checkUser1 = rep.GetUserByLogin(addedUser.Login);
+            User checkUser1 = rep.GetUserByLogin("Alaxov");
 
             Assert.IsNotNull(checkUser1, "Users1 was not found");
             Assert.AreEqual("Alaxov", checkUser1.Login, "Not equal found User");
@@ -113,7 +111,7 @@ namespace TrasferSystemTests
             Assert.AreEqual("Arseny", checkUser1.Name_, "Not equal found User");
             Assert.AreEqual("Pronin", checkUser1.Surname, "Not equal found User");
 
-            rep.Delete(addedUser);
+            rep.Delete(checkUser1);
         }
     }
 }

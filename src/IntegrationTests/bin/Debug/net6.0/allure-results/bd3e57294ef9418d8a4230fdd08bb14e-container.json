@@ -1,0 +1,12 @@
+{
+  "uuid": "27327a68-83e9-47f4-adbe-6e7969062de4-tc-0-1027",
+  "name": "IntegrationTests.TestManagerController.TestDeleteObjective",
+  "children": [
+    "89bab709-4f91-4679-af1a-0a69f3eabe49-tr-0-1030"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671894580494,
+  "stop": 1671894580504
+}

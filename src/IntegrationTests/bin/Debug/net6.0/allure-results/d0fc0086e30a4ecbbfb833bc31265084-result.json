@@ -1,0 +1,78 @@
+{
+  "uuid": "7a6811c2-d2dc-4eb7-a960-30d2d04796b1-tr-0-1023",
+  "historyId": "IntegrationTests.TestEmployeeController.TestGetAllEmployees",
+  "fullName": "IntegrationTests.TestEmployeeController.TestGetAllEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllEmployees",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetAllEmployees Name2\r\n  Expected string length 8 but was 4. Strings differ at index 0.\r\n  Expected: \"Starosta\"\r\n  But was:  \"Ilya\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllEmployees() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 117\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllEmployees",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetAllEmployees Name2\r\n  Expected string length 8 but was 4. Strings differ at index 0.\r\n  Expected: \"Starosta\"\r\n  But was:  \"Ilya\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestEmployeeController.TestGetAllEmployees() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestEmployeeController.cs:line 117\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a8009595c47e42e2bdd3369a30d44bae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671887928331,
+      "stop": 1671887928468
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671887928331,
+  "stop": 1671887928468
+}

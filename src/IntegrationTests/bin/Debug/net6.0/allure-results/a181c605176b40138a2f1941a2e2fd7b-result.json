@@ -1,0 +1,78 @@
+{
+  "uuid": "616f60ca-ed81-4629-82fa-36d10fb0b9cf-tr-0-1044",
+  "historyId": "IntegrationTests.TestUserController.TestGetWorkplaces",
+  "fullName": "IntegrationTests.TestUserController.TestGetWorkplaces",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorkplaces"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetWorkplaces",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetWorkplaces Count\r\n  Expected: 1\r\n  But was:  2\r\n",
+    "trace": "   at IntegrationTests.TestUserController.TestGetWorkplaces() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestUserController.cs:line 62\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetWorkplaces",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetWorkplaces Count\r\n  Expected: 1\r\n  But was:  2\r\n",
+        "trace": "   at IntegrationTests.TestUserController.TestGetWorkplaces() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestUserController.cs:line 62\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b64e1f313c0f4cd9b045eb37b62d6cf8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671892791292,
+      "stop": 1671892791301
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671892791292,
+  "stop": 1671892791301
+}

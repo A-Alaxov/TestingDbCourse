@@ -40,6 +40,7 @@ namespace ComponentAccessToDB
             {
                 final.Add(ResponsibilityConv.DBtoBL(m));
             }
+            final.Sort((x, y) => x.Responsibilityid.CompareTo(y.Responsibilityid));
             return final;
         }
         public void Update(Responsibility element)

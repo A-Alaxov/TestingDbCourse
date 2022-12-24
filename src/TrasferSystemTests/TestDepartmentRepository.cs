@@ -57,21 +57,21 @@ namespace TrasferSystemTests
         [Test]
         public void TestUpdate()
         {
-            var Department = new Department(_departmentid: 2000, _title: "Testing", _company: 1, _foundationyear: 1994, _activityfield: "Information tech");
+            var Department = new Department(_departmentid: 2000, _title: "hello", _company: 1, _foundationyear: 1994, _activityfield: "no");
             var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));
 
             IDepartmentRepository rep = new DepartmentRepository(context);
             rep.Add(Department);
             Department addedDepartment = rep.GetAll().Last();
 
-            Department newDepartment = new Department(_departmentid: addedDepartment.Departmentid, _title: "Testing", _company: 1, _foundationyear: 1994, _activityfield: "Fix bug");
+            Department newDepartment = new Department(_departmentid: addedDepartment.Departmentid, _title: "hello", _company: 1, _foundationyear: 1994, _activityfield: "Fix bug");
 
             rep.Update(newDepartment);
 
             Department checkDepartment2 = rep.GetDepartmentByID(newDepartment.Departmentid);
 
             Assert.IsNotNull(checkDepartment2, "cannot find Department by id");
-            Assert.AreEqual("Testing", newDepartment.Title, "Not equal added Department");
+            Assert.AreEqual("hello", newDepartment.Title, "Not equal added Department");
             Assert.AreEqual(1, checkDepartment2.Company, "Not equal Added Department");
             Assert.AreEqual(1994, checkDepartment2.Foundationyear, "Not equal Added Department");
             Assert.AreEqual("Fix bug", checkDepartment2.Activityfield, "Not equal Added Department");

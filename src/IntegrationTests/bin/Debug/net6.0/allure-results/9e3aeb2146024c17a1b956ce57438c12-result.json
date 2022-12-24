@@ -1,0 +1,78 @@
+{
+  "uuid": "163b4b26-6493-480c-b6a0-f0751304404d-tr-0-1035",
+  "historyId": "IntegrationTests.TestManagerController.AddDepartment",
+  "fullName": "IntegrationTests.TestManagerController.AddDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "AddDepartment",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddDepartment Title\r\n  Expected string length 6 but was 7. Strings differ at index 0.\r\n  Expected: \"titlel\"\r\n  But was:  \"Testing\"\r\n  -----------^\r\n",
+    "trace": "   at IntegrationTests.TestManagerController.AddDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 224\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "AddDepartment",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddDepartment Title\r\n  Expected string length 6 but was 7. Strings differ at index 0.\r\n  Expected: \"titlel\"\r\n  But was:  \"Testing\"\r\n  -----------^\r\n",
+        "trace": "   at IntegrationTests.TestManagerController.AddDepartment() in D:\\VisualStudioProjects\\db-course\\src\\IntegrationTests\\TestManagerController.cs:line 224\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f5b7288fb8d14c37a1f20056281a0472-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671892714322,
+      "stop": 1671892714476
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671892714322,
+  "stop": 1671892714476
+}

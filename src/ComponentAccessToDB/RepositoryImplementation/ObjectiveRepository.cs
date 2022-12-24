@@ -40,6 +40,7 @@ namespace ComponentAccessToDB
             {
                 final.Add(ObjectiveConv.DBtoBL(m));
             }
+            final.Sort((x, y) => x.Objectiveid.CompareTo(y.Objectiveid));
             return final;
         }
         public void Update(Objective element)
