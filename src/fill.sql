@@ -3,10 +3,10 @@ password_,
 name_,
 surname)
 values ('Daikatana', 'empty', 'Ilya', 'Nikuliv'),
-values ('Inlucker', 'qwerty', 'Arseny', 'Pronin'),
-values ('Khadgar', 'none', 'Roma', 'Mucha'),
-values ('SqueakBug', 'nice', 'Artem', 'Lisnevsky'),
-values ('Starosta', 'strong', 'Ilya', 'Klimov');
+('Inlucker', 'qwerty', 'Arseny', 'Pronin'),
+('Khadgar', 'none', 'Roma', 'Mucha'),
+('SqueakBug', 'nice', 'Artem', 'Lisnevsky'),
+('Starosta', 'strong', 'Ilya', 'Klimov');
 
 insert into company(companyid,
 title,
@@ -26,10 +26,10 @@ company,
 department,
 permission_)
 values (1, 'Inlucker', 1, null, 2),
-values (2, 'Starosta', 1, null, 1),
-values (3, 'SqueakBug', 1, null, 3),
-values (4, 'Khadgar', 1, null, 4),
-values (5, 'Daikatana', 1, null, 0);
+(2, 'Starosta', 1, null, 1),
+(3, 'SqueakBug', 1, null, 3),
+(4, 'Khadgar', 1, null, 4),
+(5, 'Daikatana', 1, null, 0);
 
 insert into objective(objectiveid,
 parentobjective,
